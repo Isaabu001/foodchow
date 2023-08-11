@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FOOD - CHOW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="furniture.json">
+  </head>
+  <body>
+
+    <!-- header  -->
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">FOOD CHOW.</a>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+          <div class = "navbar-collapse" style="background-color: rgb(249, 22, 6);" >
+            <ul >
+              <li><a href = "index.html" style="color: white;">Home</a></li>
+              <li><a href = "Gallery.html" style="color: white;">Gallery</a></li>
+              <li><a href = "New Arrivals.html" style="color: white;">New Arrivals</a></li>
+              
+            </ul>
+          </div>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cart-list">
+                <!-- single item -->
+                <!-- <div class = "cart-item">
+                  <img src = "images/armchair.png" alt = "product image">
+                  <div class = "cart-item-info">
+                    <h3 class = "cart-item-name">Arm Chair</h3>
+                    <span class = "cart-item-category">Chair</span>
+                    <span class = "cart-item-price">$120.00</span>
+                  </div>
+
+                  <button type = "button" class = "cart-item-del-btn">
+                    <i class = "fas fa-times"></i>
+                  </button>
+                </div> -->
+                <!-- end of single item  -->
+              </div>
+
+              <div class = "cart-total">
+                <h3>Total: $</h3>
+                
+                <span id = "cart-total-value"></span>
+                
+              </div>
+
+              
+              <button type = "button" class = "btn" style="width: 80%;"><a href="createaccount.html" ><b style="color: #fff;">PROCEED TO CHECKOUT</b></a></button>
+            </div>
+          </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- banner -->
+        <div class = "banner">
+          <div class = "banner-content">
+            <h1>Order Food Online From the Best Restaurants</h1>
+            <p class = "text">kentai</p>
+            <div class = "btns">
+              <button type = "button" class = "btn"><a href="index.html">WELCOME</a></button>
+              <button type = "button" class = "btn"><a href="index.html">GLAD TO HAVE YOU</a></button>
+            </div>
+          </div>
+
+          <div class = "banner-img">
+            <img src = "https://scontent.flos1-1.fna.fbcdn.net/v/t1.15752-9/351048044_166350096254040_6261696168269694471_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFiLpT7tMh4d0f3Ox3zg3QB368uQ--rLwvfry5D76svC97n1xMBbq6sjP9QlyMVzx9_eCK0cjEbkgQXiB9kYWzV&_nc_ohc=B5pEFkptag4AX9e9NtO&_nc_ht=scontent.flos1-1.fna&oh=03_AdRLF59pJth8dcoNgkIQEv8U8HCwHX7uxDKC4BLRlCaUKw&oe=64AC2F35" alt = "furniture banner image">
+          </div>
+        </div>
+        <!-- end of banner  -->
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- products section  -->
+    <section class = "products">
+      <div class = "container">
+        <h2>YUMMY FOOD</h2>
+        <div class = "product-list">
+          <!-- single item -->
+          <!-- <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/bed.png" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Wooden Bed</h3>
+              <span class = "product-category">Bed</span>
+              <p class = "product-price">$120.00</p>
+            </div>
+          </div> -->
+          <!-- end of single item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of products section -->
+
+    <!-- footer -->
+    <footer style="background-color: #0a0a0a;">
+      <div class = "footer-banner" >
+        <div class = "container">
+          <h2 style="color: #fa0505;">KENTAI Furniture Collection</h2>
+          <h3 style="color: #fd0808;">Phone Number <br> +234 8106898196</h3>
+            <h3 style="color: #fe0808;">Email: <br>fakowajokehinde777@gmail.com</h3>
+          <p class = "text" style="color: #f90808;">kentai</p>
+          <button type = "button" class = "btn"><a href="index.html"><h4 style="color: #f2ecec;"> View More</h4></a></button>
+        </div>
+      </div>
+
+      <div class = "container" style="background-color: #070707;">
+        <div class = "social-icons" style="background-color: #000000;">
+          <a href = "https://web.facebook.com/">
+            <i class = "fab fa-facebook-f"></i>
+          </a>
+          <a href = "https://twitter.com/home">
+            <i class = "fab fa-twitter"></i>
+          </a>
+          <a href = "https://www.instagram.com/">
+            <i class = "fab fa-instagram"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-pinterest"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    
+
+
+
+    
+    
+    <script src="app.js"></script>
+  </body>
+</html>

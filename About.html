@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food Order</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="head">
+      <div class="container flex">
+        <div class="left">
+          <span>FEEL LIKE EATING</span>
+          <span>CHOOSE US</span>
+        </div>
+        
+      </div>
+    </section>
+
+    <header class="nav">
+      <div class="container flex">
+        <div class="logo">
+          <img src="https://github.com/sunil9813/Food-Order/blob/master/images/logo.png?raw=true" alt="" />
+        </div>
+        <div class="main_list" id="mainListDiv">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Pages.html">Pages</a></li>
+            <li><a href="RESTAURANTS.html">RESTAURANTS</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="media_button">
+          <i class="fa fa-bars" id="mediaButton"></i>
+        </div>
+        <div class="button">
+          <button class="primary-btn"><a href="index.html">REGISTER RESTAURANT</a></button>
+        </div>
+      </div>
+    </header>
+
+    <script>
+      var mainListDiv = document.getElementById("mainListDiv"),
+        mediaButton = document.getElementById("mediaButton")
+
+      mediaButton.onclick = function () {
+        mainListDiv.classList.toggle("show_list")
+        mediaButton.classList.toggle("active")
+      }
+    </script>
+    
+  
+
+
+
+    <section class="home" sty>
+      <div class="container">
+        <h1>Order <span>Food Online From</span> the Best <span>Kentai</span> Restaurants</h1>
+        <form class="flex">
+          <input type="text" placeholder="Restaurants" />
+          <input type="text" placeholder="Search" />
+          <input type="submit" value="Search" />
+        </form>
+        
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="heading">
+          <h3>Website for Restaurant and Cafe</h3>
+          <h1>TOP RESTAURANTS</h1>
+          <p>Things that get tricky are things like burgers and fries, or things that are deep-fried. We do have a couple of burger restaurants that are capable of doing a good job transporting but it's Fries are almost impossible.</p>
+        </div>
+
+        <div class="content grid top">
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant1.png?raw=true" alt="" />
+          </div>
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant2.png?raw=true" alt="" />
+          </div>
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant3.png?raw=true" alt="" />
+          </div>
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant4.png?raw=true" alt="" />
+          </div>
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant5.png?raw=true" alt="" />
+          </div>
+          <div class="box">
+            <img src="https://github.com/sunil9813/Food-Order/blob/master/images/top-restaurant6.png?raw=true" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+
+   
+
+  </body>
+</html>
